@@ -12,6 +12,7 @@
 ## Then get your hands dirty
 
 	npm install
+	
 starter project modules
 * bower
 * lesshat
@@ -19,6 +20,7 @@ starter project modules
 
 
 	bower install
+	
 starter project dependencies
 * bootstrap
 * reset-css
