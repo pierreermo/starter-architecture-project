@@ -16,7 +16,6 @@ starter project modules
 * bower
 * lesshat
 * gulp
-* ...gulp-plugins
 
 
 	bower install
