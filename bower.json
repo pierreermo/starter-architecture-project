@@ -1,0 +1,21 @@
+{
+  "name": "pierre-labastida.fr",
+  "description": "",
+  "main": "script.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.1",
+    "angular-route": "1.6.1",
+    "angular-animate": "1.6.1",
+    "bootstrap": "^3.3.7",
+    "reset-css": "^2.2.0"
+  }
+}

@@ -1,0 +1,49 @@
+/**
+ * Import Lesshat mixins library and your personal mixins.
+ */
+@import '../node_modules/lesshat/lesshat.less';
+@import 'import/mixins';
+
+/**
+ * Set the project variables
+ * colors, fonts, sizes, etc.
+ */
+@import 'base/vars';
+
+/**
+ * Define the base project styles
+ * only generic html definition, no class
+ */
+@import 'base/base';
+
+/**
+ * Import project font(s) if needed
+ */
+@import 'import/font-face';
+
+/**
+ * Import OOCSS utilities
+ */
+@import 'oocss/oocss';
+
+/**
+ * Module madness!
+ * all parts of design go here
+ */
+@import 'module/view';
+@import 'module/title';
+@import 'module/button-link';
+
+/**
+ * Project animations
+ */
+@import 'animation/keyframes';
+@import 'animation/anim--view';	
+@import 'animation/anim--wave';	
+
+
+/**
+ * Media queries
+ */
+@import 'media/mobile';
+@import 'media/apple-watch';

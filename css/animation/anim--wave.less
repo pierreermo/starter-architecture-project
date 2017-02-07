@@ -1,0 +1,19 @@
+.anim--wave {
+	z-index: 1;
+	position: relative;
+	user-select: none;
+	overflow: hidden;
+}
+
+	.wave {
+		position: absolute;
+		.border-radius(50%);
+		.opacity(1);
+		z-index: -1;
+		background: rgba(255, 255, 255, .5);
+	    pointer-events: none;
+
+	    width: 2px; height: 2px;
+
+	    .animation(wave .5s ease-out);
+	}

@@ -1,0 +1,105 @@
+<div class="container-fluid">
+
+	<div class="col-sm-6">
+		<h1 class="title  col-sm-12">
+			Starter<br>
+			project architecture
+			<span class="title__separator"></span>
+		</h1>
+		
+
+		<p class="col-sm-12">
+			divide every piece of design as an independant “module” in : <code>root/css/module/my-module.less</code><br>
+			that way you can easily maintain & reuse your code across other projects <br>
+			<br>
+			define project specificities in “variables” in : root/css/base/vars <br>
+			define project base design in root/css/base/base <br>
+ 			<br>
+			code every css animation in : root/css/animation/keyframes <br>
+			divide every animation in an specific file : root/css/animation/ <br>my-animation
+		</p>
+		
+		<h2 class="col-sm-12">
+			Read about some concepts :
+		</h2>
+		<div class="col-sm-12">
+			<a wave-click class="button-link  anim--wave" href="http://getbem.com/naming/">BEM naming convention</a>
+		</div>
+		
+		<div class="col-sm-12">
+			<a wave-click class="button-link  anim--wave" href="https://smacss.com/book/categorizing">SMACSS project architecture</a>
+		</div>
+
+		<div class="col-sm-12">
+			<a wave-click class="button-link  anim--wave" href="http://oocss.org/">OOCSS utilities</a>
+		</div>
+			
+		<div class="col-sm-6">
+			<a wave-click class="button-link  anim--wave" href="http://lesscss.org/">LESS</a>
+		</div>
+
+		<div class="col-sm-6">
+			<a wave-click class="button-link  anim--wave" href="http://sass-lang.com/">SASS</a>
+		</div>
+			
+		<div class="col-sm-3">
+			<a wave-click class="button-link  anim--wave" href="http://gulpjs.com/">Gulp</a>
+		</div>
+
+		<div class="col-sm-3">
+			<a wave-click class="button-link  anim--wave" href="http://gruntjs.com/">Grunt</a>
+		</div>
+
+		<div class="col-sm-3">
+			<a wave-click class="button-link  anim--wave" href="https://bower.io/">Bower</a>
+		</div>
+
+		<div class="col-sm-3">
+			<a wave-click class="button-link  anim--wave" href="https://nodejs.org/en/">Node</a>
+		</div>
+		
+	</div>
+	
+
+	<div class="col-sm-6">
+				<pre>
+/root
+┃
+┣━ /css
+┃  ┃
+┃  ┣━━━ main.less (import project's css dependencies)
+┃  ┃
+┃  ┣━━━ /import
+┃  ┃    ┣━━━ mixins.less
+┃  ┃    ┣━━━ icon-font.less
+┃  ┃    ┗━━━ font-face.less
+┃  ┃
+┃  ┣━━━ /base
+┃  ┃    ┣━━━ variables.less
+┃  ┃    ┗━━━ base.less
+┃  ┃
+┃  ┣━━━ /module
+┃  ┃    ┣━━━ header.less
+┃  ┃    ┣━━━ menu.less
+┃  ┃    ┣━━━ side-bar.less
+┃  ┃    ┣━━━ title.less
+┃  ┃    ┣━━━ button.less
+┃  ┃    ┣━━━ footer.less
+┃  ┃    ┗━━━ ...whatever piece of design
+┃  ┃
+┃  ┣━━━ /animation
+┃  ┃    ┣━━━ keyframes.less
+┃  ┃    ┣━━━ anim--fade.less
+┃  ┃    ┗━━━ ...
+┃  ┃
+┃  ┣━━━ /oocss
+┃  ┃    ┗━━━ oocss.less
+┃  ┃
+┃  ┗━━━ /media
+┃       ┣━━━ apple-watch.less
+┃       ┣━━━ mobile.less
+┃       ┗━━━ ...
+		</pre>
+	</div>
+
+</div>
