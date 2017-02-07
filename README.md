@@ -13,7 +13,7 @@
 
 `npm install`
 
-starter project modules
+starter project modules:
 * bower
 * lesshat
 * gulp
@@ -21,7 +21,7 @@ starter project modules
 
 `bower install`	
 
-starter project dependencies
+starter project dependencies:
 * bootstrap
 * reset-css
 * angular
@@ -59,58 +59,58 @@ Define project base design in : `root/css/base/base`
 Prepare every css animation in : `root/css/animation/keyframes`
 Create every animation in an specific reusable file : `root/css/animation/my-animation`
 
-`/Project root
-┃
-┣━ package.json
-┃
-┣━ bower.json
-┃
-┣━ gulpfile.js
-┃
-┣━ index.html
-┃
-┣━ /app (contain angular module/router/views etc. in this case)
-┃
-┣━ /dist (contain production css & js files)
-┃
-┣━ /css
-┃  ┃
-┃  ┣━━━ main.less (import project's css dependencies)
-┃  ┃
-┃  ┣━━━ /import
-┃  ┃    ┣━━━ mixins.less
-┃  ┃    ┣━━━ icon-font.less
-┃  ┃    ┗━━━ font-face.less
-┃  ┃
-┃  ┣━━━ /base
-┃  ┃    ┣━━━ variables.less
-┃  ┃    ┗━━━ base.less
-┃  ┃
-┃  ┣━━━ /module
-┃  ┃    ┣━━━ header.less
-┃  ┃    ┣━━━ sidebar.less
-┃  ┃    ┣━━━ article.less
-┃  ┃    ┣━━━ title.less
-┃  ┃    ┣━━━ button.less
-┃  ┃    ┣━━━ footer.less
-┃  ┃    ┣━━━ slider.less
-┃  ┃    ┗━━━ ...whatever piece of design
-┃  ┃
-┃  ┣━━━ /animation
-┃  ┃    ┣━━━ keyframes.less
-┃  ┃    ┣━━━ anim--1.less
-┃  ┃    ┣━━━ anim--2.less
-┃  ┃    ┣━━━ anim--3.less
-┃  ┃    ┗━━━ ...
-┃  ┃
-┃  ┣━━━ /oocss
-┃  ┃    ┗━━━ oocss.less
-┃  ┃
-┃  ┗━━━ /media
-┃       ┣━━━ apple-watch.less
-┃       ┣━━━ mobile.less
-┃       ┗━━━ ...
-┃  
-┣━ /img
-┃
-┗━ /fonts`
+/Project root   
+┃   
+┣━ package.json   
+┃   
+┣━ bower.json   
+┃   
+┣━ gulpfile.js   
+┃   
+┣━ index.html   
+┃   
+┣━ /app (contain angular module/router/views etc. in this case)   
+┃   
+┣━ /dist (contain production css & js files)   
+┃   
+┣━ /css   
+┃  ┃   
+┃  ┣━━━ main.less (import project's css dependencies)   
+┃  ┃    
+┃  ┣━━━ /import      
+┃  ┃    ┣━━━ mixins.less   
+┃  ┃    ┣━━━ icon-font.less   
+┃  ┃    ┗━━━ font-face.less      
+┃  ┃      
+┃  ┣━━━ /base      
+┃  ┃    ┣━━━ variables.less      
+┃  ┃    ┗━━━ base.less      
+┃  ┃      
+┃  ┣━━━ /module      
+┃  ┃    ┣━━━ header.less      
+┃  ┃    ┣━━━ sidebar.less      
+┃  ┃    ┣━━━ article.less      
+┃  ┃    ┣━━━ title.less      
+┃  ┃    ┣━━━ button.less      
+┃  ┃    ┣━━━ footer.less      
+┃  ┃    ┣━━━ slider.less      
+┃  ┃    ┗━━━ ...whatever piece of design      
+┃  ┃    
+┃  ┣━━━ /animation    
+┃  ┃    ┣━━━ keyframes.less    
+┃  ┃    ┣━━━ anim--1.less    
+┃  ┃    ┣━━━ anim--2.less    
+┃  ┃    ┣━━━ anim--3.less    
+┃  ┃    ┗━━━ ...    
+┃  ┃    
+┃  ┣━━━ /oocss    
+┃  ┃    ┗━━━ oocss.less    
+┃  ┃    
+┃  ┗━━━ /media    
+┃       ┣━━━ apple-watch.less    
+┃       ┣━━━ mobile.less    
+┃       ┗━━━ ...   
+┃   
+┣━ /img    
+┃    
+┗━ /fonts    
