@@ -35,7 +35,7 @@ watch every change in less & js files to trigger the apropriate task.
 
 `gulp less`
 
-compile less files into a main.css file.
+compile less files into a main.css file.   
 sourcemaps & autoprefixed.
 
 `gulp js`
@@ -50,7 +50,7 @@ minify & rename main dist files
 
 ## Design & Integration methodology :
 
-Create every pieces of design as an independant “module” in : `root/css/module/my-module.less`   
+Create every pieces of design as an independent “module” in : `root/css/module/my-module.less`   
 That way you can easily maintain & reuse your code across other projects    
 
 Define project specificities as “variables” in : `root/css/base/vars`    
