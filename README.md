@@ -11,7 +11,9 @@
 
 ## Then get your hands dirty
 
-`npm install`
+```
+> npm install
+```
 
 starter project modules:
 * bower
@@ -19,7 +21,9 @@ starter project modules:
 * gulp
 
 
-`bower install`	
+```
+> bower install
+```
 
 starter project dependencies:
 * bootstrap
@@ -29,20 +33,28 @@ starter project dependencies:
 
 ## Gulp basic tasks
 
-`gulp watch`
+```
+> gulp watch
+```
 
 watch every change in less & js files to trigger the apropriate task.
 
-`gulp less`
+```
+> gulp less
+```
 
 compile less files into a main.css file.   
 sourcemaps & autoprefixed.
 
-`gulp js`
+```
+> gulp js
+```
 
 compile angular files (in logic order) into a main.js file.
 
-`gulp prod`
+```
+> gulp prod
+```
 
 minify & rename main dist files
 
@@ -50,13 +62,13 @@ minify & rename main dist files
 
 ## Design & Integration methodology :
 
-Create every pieces of design as an independent “module” in : `root/css/module/my-module.less`   
+Create every pieces of design as an independent “module” in : ```root/css/module/my-module.less```   
 That way you can easily maintain & reuse your code across other projects    
 
-Define project specificities as “variables” in : `root/css/base/vars`    
-Define project base design in : `root/css/base/base`    
+Define project specificities as “variables” in : ```root/css/base/vars```    
+Define project base design in : ```root/css/base/base```    
 
-Prepare every css animation in : `root/css/animation/keyframes`   
-Create every animation in an specific reusable file : `root/css/animation/my-animation`   
+Prepare every css animation in : ```root/css/animation/keyframes```   
+Create every animation in an specific reusable file : ```root/css/animation/my-animation```   
 
 ![Imgur](http://i.imgur.com/4EOEA65.png)
