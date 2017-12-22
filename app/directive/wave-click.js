@@ -3,6 +3,9 @@ app.directive('waveClick', function() {
     restrict: 'A',
     link: function(scope, element, attr) {
 
+      // je viens de refacto mon fichier, ca marche nikel.
+
+
       element.on('click', function(){
 
         var x = event.offsetX;
